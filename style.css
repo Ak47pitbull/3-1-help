@@ -159,3 +159,14 @@ hr {
 #trucazo {
     visibility: hidden;
 }
+.Studios {
+    color: #000000;
+    font-family: 'Shantell Sans', cursive;
+    transition: color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+.Studios:hover {
+    color: #129f9f;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #000000;
+}
