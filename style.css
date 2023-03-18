@@ -58,6 +58,22 @@ body {
     background-color: #ffffff;
     color: #129f9f;
 }
+.notifications {
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: #129f9f;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.notifications:hover {
+    background-color: #ffffff;
+    color: #129f9f;
+    cursor: pointer;
+}
 .hour_table {
     background-color: #129f9f;
     color: #ffffff;
@@ -152,9 +168,6 @@ body {
     background-color: #ffffff;
     color: #129f9f;
     cursor: pointer;
-}
-hr {
-    /* margin-left: 70px; */
 }
 #trucazo {
     visibility: hidden;

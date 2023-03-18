@@ -126,17 +126,19 @@
             <br>
             <p class="danger_zone"><b>(No hay avisos recientes por ahora)</b></p>
             <br>
+            <button id="notification" class="notifications"><p><b>Notificarme de Tareas</b></p></button>
+            <br>
             <button class="reclam_title"><h3>¿Tuviste algun problema? Confesate y reclamalo</h3></button>
             <br>
             <h4 class="reclam_text"><b>¡Aviso! Los reclamos son completamente anonimos y no se revelara el nombre de la persona que reclamo.</b></h4>
             <form action="" id="contactForm">
-                <input class="input_name" type="text" placeholder="Nombre" name="name">
+                <input required class="input_name" type="text" placeholder="Nombre" name="name">
                 <br>
                 <hr>
-                <input class="input_email" type="text" placeholder="Email" name="email">
+                <input required class="input_email" type="text" placeholder="Email" name="email">
                 <br>
                 <hr>
-                <textarea class="camp" type="text" placeholder="Confesion o Reclamo" name="camp"></textarea>
+                <textarea required class="camp" type="text" placeholder="Confesion o Reclamo" name="camp"></textarea>
                 <br>
                 <button type="submit" class="submit" name="submit"><h3>Enviar</h3></button>
             </form>
@@ -144,5 +146,6 @@
             <a target="_blank" class="Studios" href="https://ak47pitbull.github.io/47Studios/"><h3><47Studios/></h3></a>
       </div>
       <script src="script.js"></script>
+      <script src="main.js"></script>
 </body>
 </html>
