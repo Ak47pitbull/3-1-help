@@ -58,7 +58,7 @@ body {
     background-color: #ffffff;
     color: #129f9f;
 }
-.notifications {
+/* .notifications {
     display: inline-block;
     margin-top: 10px;
     box-shadow: 5px 5px 5px #000000;
@@ -73,7 +73,7 @@ body {
     background-color: #ffffff;
     color: #129f9f;
     cursor: pointer;
-}
+} */
 .hour_table {
     background-color: #129f9f;
     color: #ffffff;
