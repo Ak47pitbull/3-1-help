@@ -125,7 +125,6 @@
             <button class="danger_title"><h3>¡¡Avisos Importantes!!</h3></button>
             <br>
             <p class="danger_zone"><b>(No hay avisos recientes por ahora)</b></p>
-            <br>
             <!-- <button id="notification" class="notifications"><p><b>Notificarme de Tareas</b></p></button> -->
             <br>
             <button class="reclam_title"><h3>¿Tuviste algun problema? Confesate y reclamalo</h3></button>
@@ -150,7 +149,9 @@
       <script src="push.min.js"></script>
       <script>
         Push.create("No hay notificaciones recientes",{
-            body: "(Vacio)"
+            body: "(Vacio)",
+            icon: "fqwefeqf",
+            timeout: "",
         }); 
       </script>
 </body>
