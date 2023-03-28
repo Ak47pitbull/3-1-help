@@ -1,7 +1,11 @@
+
+
 body {
+    background: url("Bishop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
-    background-color: #d1d1d1;
 }
 .contenedor {
     max-width: 800px;
@@ -13,16 +17,17 @@ body {
     }
   }
 .container_title {
-    background-color: #129f9f;
+    background-color: #9AFFED;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    border-radius: 10px;
 }
 .title {
     text-align: center;
     margin: 0;
     padding: 0;
-    color: #ffffff;
-    text-shadow: 5px 5px 5px #000000;
+    color: #000;
+    text-shadow: 5px 5px 5px #B8B8B8;
     transform: translate3d(0, 0, 5px);
     font-family: 'Shantell Sans', cursive;
 }
@@ -31,10 +36,10 @@ body {
     margin-top: 10px;
     /* margin-left: 60px; */
     box-shadow: 5px 5px 5px #000000;
-    background-color: #129f9f;
+    background-color: #1C8EA0;
     border: 1px solid #000000;
     border-radius: 10px;
-    color: #ffffff;
+    color: #fff;
     transition: color 0.3s ease;
     transition: background-color 0.3s ease;
 }
@@ -43,7 +48,7 @@ body {
     margin-top: 10px;
     /* margin-left: 60px; */
     box-shadow: 5px 5px 5px #000000;
-    background-color: #129f9f;
+    background-color: #1C8EA0;
     border: 1px solid #000000;
     border-radius: 10px;
     color: #ffffff;
@@ -52,11 +57,11 @@ body {
 }
 .hour_button:hover {
     background-color: #ffffff;
-    color: #129f9f;
+    color: #040E2A;
 }
 .danger_title:hover {
     background-color: #ffffff;
-    color: #129f9f;
+    color: #040E2A;
 }
 /* .notifications {
     display: inline-block;
@@ -75,29 +80,32 @@ body {
     cursor: pointer;
 } */
 .hour_table {
-    background-color: #129f9f;
-    color: #ffffff;
-    border: 2px solid #000000;
+    background-color: #0E5A71;
+    color: #D0D0D0;
+    padding: 1px;
+    border: 2px solid #000;
     margin-top: 10px;
     /* margin-left: 70px; */
     border-radius: 15px;
     box-shadow: 3px 3px 10px #000000;
 }
 .danger_zone {
-    background-color: #129f9f;
-    color: #ffffff;
+    background-color: #0E5A71;
+    color: #D0D0D0;
+    padding: 5px;
     display: inline-block;
     /* margin-left: 70px; */
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
-    border: 2px solid #000000;
+    border: 2px solid #000;
 }
 .reclam_title {
     display: inline-block;
     margin-top: 10px;
+    padding: 5px;
     /* margin-left: 60px; */
     box-shadow: 5px 5px 5px #000000;
-    background-color: #129f9f;
+    background-color: #0803A8;
     border: 1px solid #000000;
     border-radius: 10px;
     color: #ffffff;
@@ -107,24 +115,28 @@ body {
 .reclam_title:hover {
     background-color: #ffffff;
     color: #129f9f;
+    padding: 5px;
 }
 .reclam_text {
-    background-color: #129f9f;
+    background-color: #0803A8;
     color: #ffffff;
     display: inline-block;
     /* margin-left: 70px; */
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     width: 350px;
+    padding: 5px;
 }
 .camp {
     /* margin-left: 70px; */
     width: 350px;
     height: 100px;
     color: #ffffff;
-    background-color: #129f9f;
+    background-color: #0803A8;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
+    padding: 5px;
+    resize: none;
 }
 .camp::-webkit-input-placeholder {
     color: #ffffff;
@@ -141,7 +153,7 @@ body {
 }
 .input_email {
     color: #ffffff;
-    background-color: #129f9f;
+    background-color: #0803A8;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -154,7 +166,7 @@ body {
     color: #ffffff;
 }
 .submit {
-    background-color: #129f9f;
+    background-color: #0803A8;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -173,13 +185,13 @@ body {
     visibility: hidden;
 }
 .Studios {
-    color: #000000;
+    color: #fff;
     font-family: 'Shantell Sans', cursive;
     transition: color 0.3s ease;
     transition: box-shadow 0.3s ease;
 }
 .Studios:hover {
-    color: #129f9f;
+    color: #A2A2A2;
     cursor: pointer;
     box-shadow: 5px 5px 5px #000000;
 }
