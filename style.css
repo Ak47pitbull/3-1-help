@@ -105,7 +105,7 @@ body {
     padding: 5px;
     /* margin-left: 60px; */
     box-shadow: 5px 5px 5px #000000;
-    background-color: #0803A8;
+    background-color: #0E5A71;
     border: 1px solid #000000;
     border-radius: 10px;
     color: #ffffff;
@@ -118,7 +118,7 @@ body {
     padding: 5px;
 }
 .reclam_text {
-    background-color: #0803A8;
+    background-color: #0E5A71;
     color: #ffffff;
     display: inline-block;
     /* margin-left: 70px; */
@@ -132,7 +132,7 @@ body {
     width: 350px;
     height: 100px;
     color: #ffffff;
-    background-color: #0803A8;
+    background-color: #0E5A71;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     padding: 5px;
@@ -153,7 +153,7 @@ body {
 }
 .input_email {
     color: #ffffff;
-    background-color: #0803A8;
+    background-color: #0E5A71;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -166,7 +166,7 @@ body {
     color: #ffffff;
 }
 .submit {
-    background-color: #0803A8;
+    background-color: #0E5A71;
     box-shadow: 5px 5px 5px #000000;
     border-radius: 10px;
     border: 1px solid #000000;
